@@ -8,7 +8,7 @@ Selecting a date range by [brushing](https://github.com/d3/d3-brush) the time se
 
 The [D3 Geo Hexbin](https://www.youtube.com/watch?v=Lqsywgz__1Q) video on YouTube shows an example with 28,000 data points:
 
-<img src="https://usabilityetc.github.io/d3-geo-hexbin/d3-geo-hexbin.png" alt="D3 Geo Hexbin" width="100%">
+<img src="https://jeffreymorganio.github.io/d3-geo-hexbin/d3-geo-hexbin.png" alt="D3 Geo Hexbin" width="100%">
 
 ## Data
 
@@ -26,7 +26,7 @@ Both files are loaded asynchronously by [d3-queue](https://github.com/d3/d3-queu
 
 ## Date Format
 
-The default date format is day-month-year (e.g. 01-10-2018). The date format is defined by the standard [JavaScript date format](http://pubs.opengroup.org/onlinepubs/009695399/functions/strptime.html) notation. To change the date format, edit the following [line](https://github.com/UsabilityEtc/d3-geo-hexbin/blob/master/index.html#L30) in the `index.html` file:
+The default date format is day-month-year (e.g. 01-10-2018). The date format is defined by the standard [JavaScript date format](http://pubs.opengroup.org/onlinepubs/009695399/functions/strptime.html) notation. To change the date format, edit the following [line](https://github.com/jeffreymorganio/d3-geo-hexbin/blob/master/index.html#L30) in the `index.html` file:
 
 ```
 var dateFormat = "%d-%m-%Y";
